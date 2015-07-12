@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.crystalcleardev.CaptivateApp"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Captivate App</name>
+
+    <description>
+        Testing app development with Captivate. 
+    </description>
+
+    <author href="http://www.crystalcleardev.com" email="ron@crystalcleardev.com">
+        Ronald Lustig
+    </author>
+    <gap:platform name="ios">
+
+    </gap:platform>
+    <gap:platform name="android">
+
+    </gap:platform>
+    <gap:platform name="winphone">
+
+    </gap:platform>
+</widget>
