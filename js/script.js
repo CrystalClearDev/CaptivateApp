@@ -8,9 +8,11 @@ var app = {
 		}
 	},
 	init: function() {
+		alert("Device ready!");
 		this.buildView();
 		this.view.body.append("<p>Device ready!</p>")
 	}
 }
-
+alert("Starting!");
 document.addEventListener("deviceready", app.init.bind(app), false);
+alert("Set event listener!");
